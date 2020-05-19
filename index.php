@@ -6,6 +6,7 @@
     <title>Snacks PHP</title>
 </head>
 <body>
+
     <!-- Snack 1 -->
     <section>
         
@@ -47,7 +48,7 @@
 
         <ul>
             <?php for($i = 0; $i < count($matches); $i++) {?>
-            <li><?php echo $matches[$i]['home'] . ' ' . $matches[$i]['guest'] . ' | ' . $matches[$i]['pt_home'] . ' - ' . $matches[$i]['pt_guest'] ?></li>
+            <li><?php echo $matches[$i]['home'] . ' ' . $matches[$i]['guest'] . ' | ' . $matches[$i]['pt_home'] . ' - ' . $matches[$i]['pt_guest']; ?></li>
             <?php } ?>
         </ul>
 
@@ -67,5 +68,6 @@
         ?>
 
     </section>
+ 
 </body>
 </html>
